@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yama Ram Charan | AI Engineer</title>
+    <meta name="description"
+        content="AI Engineer student specializing in computer vision, automation, and intelligent systems. Hackathon winner and ML builder.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+
+<body>
+    <div class="grid-bg"></div>
+    <div class="ambient-light light-1"></div>
+    <div class="ambient-light light-2"></div>
+    <div class="mouse-glow" id="mouse-glow"></div>
+    <div class="bg-particles" id="particles-js"></div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">YRC<span class="blink">_</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">01. About</a></li>
+                <li><a href="#projects">02. Projects</a></li>
+                <li><a href="#skills">03. Skills</a></li>
+                <li><a href="#achievements">04. Milestones</a></li>
+                <li><a href="#education">05. Education</a></li>
+                <li><a href="#contact" class="cyber-btn sm outline">Contact</a></li>
+            </ul>
+            <div class="hamburger"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content reveal-up">
+                    <div class="profile-frame">
+                        <div class="profile-img-container">
+                            <img src="ram.jpeg" alt="Yama" class="profile-img">
+                            <div class="scanner-line"></div>
+                        </div>
+                    </div>
+                    <div class="hero-text-content">
+                        <div class="status-badge"><span class="pulse-dot"></span> OPEN FOR DEPLOYMENT</div>
+                        <h1 class="hero-name">Yama Ram Charan</h1>
+                        <h2 class="hero-title">
+                            <span class="gradient-text-cyan">AI Engineer</span> <span class="separator">//</span>
+                            <span class="gradient-text-purple">ML Builder</span>
+                        </h2>
+                        <div class="terminal-container">
+                            <div class="terminal-header">
+                                <div class="terminal-buttons">
+                                    <span class="t-btn close"></span>
+                                    <span class="t-btn min"></span>
+                                    <span class="t-btn max"></span>
+                                </div>
+                                <div class="terminal-title">bash - system_purpose.sh</div>
+                            </div>
+                            <div class="terminal-body">
+                                <p><span class="prompt">admin@yrc:~$</span> ./execute_vision.sh</p>
+                                <p class="typewriter-container"><span class="output-text">> Building intelligent systems
+                                        that solve real-world problems using AI, computer vision, and
+                                        automation.</span><span class="cursor">█</span></p>
+                            </div>
+                        </div>
+                        <div class="hero-actions">
+                            <a href="#projects" class="cyber-btn primary">Projects <i class="fas fa-rocket"></i></a>
+                            <div class="social-links-cyber">
+                                <a href="https://www.linkedin.com/in/yama-ram-charan-4a8a4533b" target="_blank"
+                                    rel="noopener noreferrer" class="cyber-icon"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://github.com/ramcharanyama" target="_blank" rel="noopener noreferrer"
+                                    class="cyber-icon"><i class="fab fa-github"></i></a>
+                                <a href="mailto:your@email.com" class="cyber-icon"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About & Metrics -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-badge reveal-up">01. NEURAL PROFILE</div>
+                <div class="about-grid reveal-up">
+                    <div class="about-text-panel tech-panel">
+                        <div class="panel-corner top-left"></div>
+                        <div class="panel-corner bottom-right"></div>
+                        <p class="lead-text">AI and Data Science student with hands-on experience building real-world AI
+                            systems across healthcare, privacy tech, and smart mobility.</p>
+                        <p>Proven track record in national hackathons and rapid prototyping. Passionate about scalable
+                            AI solutions, deep learning optimization, and innovation-driven development. Constantly
+                            bridging the gap between theoretical models and robust production applications.</p>
+                    </div>
+                    <div class="stats-grid">
+                        <div class="cyber-stat-card">
+                            <div class="stat-hologram"><i class="fas fa-trophy"></i></div>
+                            <div class="stat-info">
+                                <h3 class="counter glow-text-gold" data-target="5">0</h3>
+                                <p>Hackathon Wins</p>
+                            </div>
+                        </div>
+                        <div class="cyber-stat-card">
+                            <div class="stat-hologram"><i class="fas fa-network-wired"></i></div>
+                            <div class="stat-info">
+                                <h3 class="counter glow-text-cyan" data-target="15">0</h3>
+                                <p>AI Systems Built</p>
+                            </div>
+                        </div>
+                        <div class="cyber-stat-card">
+                            <div class="stat-hologram"><i class="fas fa-microchip"></i></div>
+                            <div class="stat-info">
+                                <h3><span class="counter glow-text-purple" data-target="9.06"
+                                        data-decimals="2">0.00</span></h3>
+                                <p>Academic GPA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-badge reveal-up">02. ACTIVE DEPLOYMENTS</div>
+                <h2 class="section-title reveal-up">Engineered Solutions</h2>
+                <div class="projects-showcase">
+                    <div class="cyber-project-card reveal-up tech-panel interactive">
+                        <div class="project-visual">
+                            <img src="maskit.png" alt="MaskIt AI">
+                            <div class="status-indicator live">LIVE ENGINE</div>
+                        </div>
+                        <div class="project-data">
+                            <div class="project-meta">v1.2.0 // PRIVACY TECH</div>
+                            <h3 class="project-title">MaskIt AI</h3>
+                            <p class="project-desc">Multi-Modal PII Anonymization Engine. Securely retracts Personally
+                                Identifiable Information from text and images.</p>
+                            <div class="tech-stack-mini">
+                                <span>Python</span><span>NLP</span><span>OCR</span><span>PyTorch</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="https://github.com/ramcharanyama/MaskITAI" target="_blank"
+                                    rel="noopener noreferrer" class="cyber-btn sm outline"><i class="fab fa-github"></i>
+                                    Source</a>
+                                <a href="https://mask-it-ai.vercel.app/" target="_blank" rel="noopener noreferrer"
+                                    class="cyber-btn sm primary"><i class="fas fa-external-link-alt"></i> Execute</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cyber-project-card reveal-up tech-panel interactive reverse" style="margin-top: 40px;">
+                        <div class="project-visual">
+                            <img src="https://images.unsplash.com/photo-1555243896-c709bfa0b564?q=80&w=800&auto=format&fit=crop"
+                                alt="BiteSafe">
+                        </div>
+                        <div class="project-data">
+                            <div class="project-meta">v2.0 // HEALTHCARE AI</div>
+                            <h3 class="project-title">BiteSafe</h3>
+                            <p class="project-desc">AI Food Safety Analyzer utilizing deep computer vision to inspect
+                                food quality and detect potential visual health hazards.</p>
+                            <div class="tech-stack-mini"><span>CV Architecture</span><span>CNN
+                                    Models</span><span>OpenCV</span></div>
+                            <div class="project-actions">
+                                <a href="#" class="cyber-btn sm outline"><i class="fab fa-github"></i> Source</a>
+                                <a href="#" class="cyber-btn sm primary"><i class="fas fa-external-link-alt"></i>
+                                    Execute</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        style="margin-top: 40px; display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+                        <div class="grid-project tech-panel reveal-up p-4">
+                            <h3 class="grid-title">E-Waste Sorting Machine</h3>
+                            <p class="grid-desc text-sm">Hardware-software integration automating electronic waste
+                                segregation using AI and robotics.</p>
+                            <div class="tech-stack-mini mt-2"><span>IoT</span><span>Arduino</span><span>CV</span></div>
+                        </div>
+                        <div class="grid-project tech-panel reveal-up p-4" style="transition-delay: 100ms;">
+                            <h3 class="grid-title">RakshakNetra</h3>
+                            <p class="grid-desc text-sm">Vehicle Accident Alert System detecting collisions instantly
+                                and notifying emergency responses.</p>
+                            <div class="tech-stack-mini mt-2"><span>Python</span><span>IoT</span><span>RT-DB</span>
+                            </div>
+                        </div>
+                        <div class="grid-project tech-panel reveal-up p-4" style="transition-delay: 200ms;">
+                            <h3 class="grid-title">Chron Keeper</h3>
+                            <p class="grid-desc text-sm">Personalized Learning AI adapting to individual learning paces
+                                and curating content schedules.</p>
+                            <div class="tech-stack-mini mt-2"><span>NLP</span><span>Python</span><span>Web</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills & Milestones -->
+        <section id="skills" class="skills-milestones-section">
+            <div class="container">
+                <div class="dual-grid">
+                    <div class="skills-col reveal-up">
+                        <div class="section-badge">03. CAPABILITIES</div>
+                        <h2 class="section-title">Tech Stack</h2>
+                        <div class="skill-module tech-panel">
+                            <div class="module-header"><i class="fas fa-brain text-cyan"></i>
+                                <h3>AI/ML</h3>
+                            </div>
+                            <div class="skill-pills">
+                                <span class="pill core">Computer Vision</span><span class="pill core">NLP</span>
+                                <span class="pill core">CNN Architectures</span><span class="pill core">OCR
+                                    Pipelines</span>
+                                <span class="pill">PyTorch</span><span class="pill">OpenCV</span>
+                            </div>
+                        </div>
+                        <div class="skill-module tech-panel mt-4">
+                            <div class="module-header"><i class="fas fa-terminal text-purple"></i>
+                                <h3>Languages & Web</h3>
+                            </div>
+                            <div class="skill-pills">
+                                <span class="pill lang">Python</span><span class="pill lang">C++/C</span><span
+                                    class="pill lang">Java</span>
+                                <span class="pill web">JavaScript</span><span class="pill web">HTML/CSS</span><span
+                                    class="pill web">PHP/MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="milestones-col reveal-up" id="achievements">
+                        <div class="section-badge">04. VALIDATION METRICS</div>
+                        <h2 class="section-title">Timeline</h2>
+                        <div class="cyber-timeline">
+                            <!-- Fixed: all nodes are siblings now -->
+                            <div class="timeline-node">
+                                <div class="node-marker current">
+                                    <div class="node-pulse"></div>
+                                </div>
+                                <div class="node-data tech-panel">
+                                    <div class="node-year text-gold"><i class="fas fa-crown"></i> Top 1 Winner</div>
+                                    <h3>KL Univ. All India Hackathon</h3>
+                                </div>
+                            </div>
+                            <div class="timeline-node">
+                                <div class="node-marker current"></div>
+                                <div class="node-data tech-panel">
+                                    <div class="node-year text-cyan"><i class="fas fa-medal"></i> Top 10 Finalist</div>
+                                    <h3>PSCMR All India Hackathon</h3>
+                                </div>
+                            </div>
+                            <div class="timeline-node">
+                                <div class="node-marker current"></div>
+                                <div class="node-data tech-panel">
+                                    <div class="node-year text-cyan"><i class="fas fa-star"></i> Campus Ambassador</div>
+                                    <h3>EDxcellence</h3>
+                                </div>
+                            </div>
+                            <div class="timeline-node">
+                                <div class="node-marker current"></div>
+                                <div class="node-data tech-panel">
+                                    <div class="node-year text-cyan"><i class="fas fa-bars"></i> Hackathon Arena</div>
+                                    <h3>Team Lead & Innovation Driver</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section id="education" class="education-section">
+            <div class="container reveal-up">
+                <div class="section-badge">05. ACADEMIC CREDENTIALS</div>
+                <h2 class="section-title">Education</h2>
+                <div class="education-container tech-panel">
+                    <div class="edu-row">
+                        <div class="edu-year">2024–28*</div>
+                        <div class="edu-details">
+                            <div class="edu-header">
+                                <h3>B V Raju Institute of Technology, Narsapur</h3>
+                                <span class="edu-score">9.06/10.00 *</span>
+                            </div>
+                            <p>Bachelor of Technology, Computer Science & Engineering</p>
+                        </div>
+                    </div>
+                    <div class="edu-row">
+                        <div class="edu-year">2022</div>
+                        <div class="edu-details">
+                            <div class="edu-header">
+                                <h3>12<sup>th</sup>, Jaya Junior College, Suryapet</h3>
+                                <span class="edu-score">935/1000</span>
+                            </div>
+                            <p>Telangana State Board of Intermediate Education</p>
+                        </div>
+                    </div>
+                    <div class="edu-row">
+                        <div class="edu-year">2020</div>
+                        <div class="edu-details">
+                            <div class="edu-header">
+                                <h3>10<sup>th</sup>, Jaya High School, Suryapet</h3>
+                                <span class="edu-score">10.00/10.00</span>
+                            </div>
+                            <p>Telangana State Board of Secondary Education</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="contact-section">
+            <div class="container reveal-up">
+                <div class="section-badge">06. CONTACT()</div>
+                <div class="contact-wrapper tech-panel">
+                    <div class="contact-interface">
+                        <div class="contact-methods">
+                            <a href="mailto:your@email.com" class="method-card">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <span class="method-label">Mail</span>
+                                    <span class="method-val">rcharan1867@gmail.com</span>
+                                </div>
+                            </a>
+                            <a href="tel:+918328316908" class="method-card">
+                                <i class="fas fa-mobile-alt"></i>
+                                <div>
+                                    <span class="method-label">Mobile</span>
+                                    <span class="method-val">+91 8328316908</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="contact-form-cyber">
+                            <form id="contactForm">
+                                <div class="input-group">
+                                    <input type="text" id="name" required placeholder="Enter Your Name">
+                                </div>
+                                <div class="input-group">
+                                    <input type="email" id="email" required placeholder="Enter Your Email">
+                                </div>
+                                <div class="input-group">
+                                    <textarea id="message" rows="4" required
+                                        placeholder="Enter Your Message"></textarea>
+                                </div>
+                                <button type="submit" class="cyber-btn primary full-width">
+                                    Send Message <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">YRC<span class="blink">_</span></div>
+            <p class="copyright">&copy; 2026 Yama Ram Charan. Engineered in the Matrix.</p>
+        </div>
+    </footer>
+
+    <!-- Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.0/dist/vanilla-tilt.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+    <!-- Main script as ES module (required for Firebase ESM imports) -->
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
